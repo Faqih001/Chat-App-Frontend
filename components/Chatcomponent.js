@@ -6,6 +6,8 @@ import { useNavigation } from "@react-navigation/native";
 
 // Chat component to display each chat in the list of chats 
 export default function Chatcomponent({ item }) {
+
+  // Get the global context navigation object to navigate to the message screen
   const navigation = useNavigation();
 
   console.log(item.messages[item.messages.length - 1]);
