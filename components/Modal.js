@@ -22,6 +22,7 @@ const NewGroupModal = () => {
     setCurrentGroupName,
   } = useContext(GlobalContext);
 
+  // Function to handle navigation to the message screen when the chat is pressed
   function handleCreateNewRoom() {
     console.log(currentGroupName);
     socket.emit("createNewGroup", currentGroupName);
