@@ -25,6 +25,7 @@ export default function Chatscreen({ navigation }) {
     setShowLoginView,
   } = useContext(GlobalContext);
 
+  // Get the global context navigation object to navigate to the message screen
   useEffect(() => {
     socket.emit("getAllGroups");
 
