@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 
+// Message component to display each message in the chat 
 export default function Messagecomponent({ currentUser, item }) {
   const currentUserStatus = item.currentUser !== currentUser;
 
