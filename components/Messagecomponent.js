@@ -36,6 +36,7 @@ export default function Messagecomponent({ currentUser, item }) {
   );
 }
 
+// Styles for the message component
 const styles = StyleSheet.create({
   messageItemWrapper: {
     maxWidth: "50%",
