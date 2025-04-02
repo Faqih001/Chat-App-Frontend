@@ -2,6 +2,8 @@ import { StyleSheet, Text, View } from "react-native";
 
 // Message component to display each message in the chat 
 export default function Messagecomponent({ currentUser, item }) {
+
+  // Get the current user status to determine the message alignment
   const currentUserStatus = item.currentUser !== currentUser;
 
   console.log(currentUserStatus , item);
