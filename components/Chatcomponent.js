@@ -44,6 +44,7 @@ export default function Chatcomponent({ item }) {
   );
 }
 
+// Styles for the chat component
 const styles = StyleSheet.create({
   chat: {
     width: "100%",
