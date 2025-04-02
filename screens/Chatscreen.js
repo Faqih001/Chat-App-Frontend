@@ -35,6 +35,7 @@ export default function Chatscreen({ navigation }) {
     });
   }, [socket]);
 
+  // Function to handle navigation to the message screen when the chat is pressed
   function handleLogout() {
     setCurrentUser("");
     setShowLoginView(false);
