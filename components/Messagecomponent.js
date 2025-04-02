@@ -6,6 +6,7 @@ export default function Messagecomponent({ currentUser, item }) {
   // Get the current user status to determine the message alignment
   const currentUserStatus = item.currentUser !== currentUser;
 
+  // Get the current user status to determine the message alignment
   console.log(currentUserStatus , item);
 
   return (
