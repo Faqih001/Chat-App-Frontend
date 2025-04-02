@@ -78,6 +78,7 @@ export default function Chatscreen({ navigation }) {
   );
 }
 
+// Styles for the chat screen
 const styles = StyleSheet.create({
   mainWrapper: {
     backgroundColor: "#eee",
