@@ -10,6 +10,7 @@ export default function Chatcomponent({ item }) {
   // Get the global context navigation object to navigate to the message screen
   const navigation = useNavigation();
 
+  // Get the global context to access the current user messages and current group name
   console.log(item.messages[item.messages.length - 1]);
 
 
