@@ -4,6 +4,7 @@ import { useContext, useEffect } from "react";
 import { GlobalContext } from "../context";
 import { useNavigation } from "@react-navigation/native";
 
+// Chat component to display each chat in the list of chats 
 export default function Chatcomponent({ item }) {
   const navigation = useNavigation();
 
