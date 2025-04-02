@@ -46,6 +46,7 @@ export default function Chatscreen({ navigation }) {
     if (currentUser.trim() === "") navigation.navigate("Homescreen");
   }, [currentUser]);
 
+  // Render the chat component
   return (
     <View style={styles.mainWrapper}>
       <View style={styles.topContainer}>
