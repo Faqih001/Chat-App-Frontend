@@ -12,6 +12,8 @@ import { AntDesign } from "@expo/vector-icons";
 import Chatcomponent from "../components/Chatcomponent";
 import NewGroupModal from "../components/Modal";
 import { socket } from "../utils";
+
+// Chat screen to display the list of chats and create new groups
 export default function Chatscreen({ navigation }) {
   const {
     currentUser,
