@@ -9,6 +9,7 @@ export default function Messagecomponent({ currentUser, item }) {
   // Get the current user status to determine the message alignment
   console.log(currentUserStatus , item);
 
+  // Function to handle navigation to the message screen when the chat is pressed
   return (
     <View style={currentUserStatus ? {} : { alignItems: "flex-end" }}>
       <View style={styles.messageItemWrapper}>
