@@ -13,6 +13,7 @@ import {
 import { GlobalContext } from "../context";
 import { socket } from "../utils";
 
+// Chat component to display each chat in the list of chats
 const NewGroupModal = () => {
   const {
     modalVisible,
