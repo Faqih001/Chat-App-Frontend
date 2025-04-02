@@ -72,6 +72,7 @@ const NewGroupModal = () => {
   );
 };
 
+// Styles for the chat component
 const styles = StyleSheet.create({
   centeredView: {
     flex: 1,
