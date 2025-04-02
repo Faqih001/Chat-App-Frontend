@@ -41,6 +41,7 @@ export default function Chatscreen({ navigation }) {
     setShowLoginView(false);
   }
 
+  // Function to handle navigation to the message screen when the chat is pressed
   useEffect(() => {
     if (currentUser.trim() === "") navigation.navigate("Homescreen");
   }, [currentUser]);
