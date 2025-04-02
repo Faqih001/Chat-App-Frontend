@@ -13,8 +13,7 @@ export default function Chatcomponent({ item }) {
   // Get the global context to access the current user messages and current group name
   console.log(item.messages[item.messages.length - 1]);
 
-
-
+  // Function to handle navigation to the message screen when the chat is pressed
   function handleNavigateToMessageScreen() {
     navigation.navigate("Messagescreen", {
       currentGroupName: item.currentGroupName,
