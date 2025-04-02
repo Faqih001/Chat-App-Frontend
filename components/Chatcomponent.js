@@ -21,6 +21,7 @@ export default function Chatcomponent({ item }) {
     });
   }
 
+  // Render the chat component
   return (
     <Pressable style={styles.chat} onPress={handleNavigateToMessageScreen}>
       <View style={styles.circle}>
