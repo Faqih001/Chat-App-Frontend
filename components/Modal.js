@@ -31,6 +31,7 @@ const NewGroupModal = () => {
     Keyboard.dismiss();
   }
 
+  // Render the chat component
   return (
     <Modal
       animationType="slide"
